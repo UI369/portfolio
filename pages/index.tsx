@@ -1,16 +1,14 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Image from "next/image";
-import { FaBeer } from "react-icons/fa";
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>DAO Masons</title>
+        <title>Matt F. Davis</title>
         <meta
-          content="DAO Masons is a service dao and designs dao mechanisms inspired by games"
+          content="Matt Davis is a software developer and technical entrepreneur"
           name="description"
         />
         <link href="/favicon.ico" rel="icon" />
@@ -45,116 +43,13 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <p
           className={styles.description}
-          style={{ textAlign: "center", fontSize: "3em" }}
+          style={{ textAlign: "center", marginTop: "1em", fontSize: "3em" }}
         >
           Matt F. Davis
         </p>
         <p className={styles.description} style={{ textAlign: "center" }}>
           Writing & Audio Portfolio
         </p>
-        <hr className={styles.rule} />
-        <p
-          className={styles.description}
-          style={{ textAlign: "center", fontSize: "1.3em" }}
-        >
-          &#9998; Writing Samples
-        </p>
-        <div className={styles.grid}>
-          <a
-            className={styles.card}
-            href="https://mirror.xyz/ui369.eth/XXMZrHiYOW8LwSTU18Ww8_fHg67vhb3DPgvWiXV3NBI?view"
-            target="_blank"
-          >
-            <h2>DAO: Emerging Leader of the</h2>
-            <p> Self-Organization Movement &rarr;</p>
-          </a>
-
-          <a
-            className={styles.card}
-            href="https://medium.com/@mattdavis-369/the-five-d-words-that-make-some-people-unstoppable-907b97262a99"
-            target="_blank"
-          >
-            <h2>Five Words that make</h2>
-            <p>some people unstoppable &rarr;</p>
-          </a>
-        </div>
-
-        <p
-          className={styles.description}
-          style={{ textAlign: "center", fontSize: "1.3em" }}
-        >
-          &#128196; Whitepapers
-        </p>
-        <div className={styles.grid}>
-          <a
-            className={styles.card}
-            href="https://hackmd.io/06-DcdCuQmaBhKKjmlE-LQ?view"
-            target="_blank"
-          >
-            <h2>Grant Ships Whitepaper &rarr;</h2>
-            <p>Capital deployment model</p>
-          </a>
-
-          <a
-            className={styles.card}
-            href="https://hackmd.io/vQpLtZkSQziIZiRJMgDNcA?view"
-            target="_blank"
-          >
-            <h2>Sudden Dapp Whitepaper &rarr;</h2>
-            <p>Dapp development gameshow</p>
-          </a>
-        </div>
-
-        <p
-          className={styles.description}
-          style={{ textAlign: "center", fontSize: "1.3em" }}
-        >
-          &#128300; Technical Documentation
-        </p>
-        <div className={styles.grid}>
-          <a
-            className={styles.card}
-            href="https://hackmd.io/cDE9cmRTRWi4MEvKp__BJg?view"
-            target="_blank"
-          >
-            <h2>Mint-a-million Tutorial &rarr;</h2>
-            <p>DAOhaus v2 Documentation </p>
-          </a>
-
-          <a
-            className={styles.card}
-            href="https://daomasons-docs.vercel.app/Intro/about"
-            target="_blank"
-          >
-            <h2>DAO Masons Governance &rarr;</h2>
-            <p>DAO Operational Guide</p>
-          </a>
-        </div>
-        <p
-          className={styles.description}
-          style={{ textAlign: "center", fontSize: "1.3em" }}
-        >
-          &#127908; Live Event Hosting
-        </p>
-        <div className={styles.grid}>
-          <a
-            className={styles.card}
-            href="https://www.youtube.com/watch?v=f9AXvfJAD6I"
-            target="_blank"
-          >
-            <h2>Does your DAO got game? &rarr;</h2>
-            <p>Game design & DAOs</p>
-          </a>
-
-          <a
-            className={styles.card}
-            href="https://www.youtube.com/watch?v=Vopl32A6Qcs&t=17s"
-            target="_blank"
-          >
-            <h2>Hosted Reputation Panel &rarr;</h2>
-            <p>DAOcember Live expert panel</p>
-          </a>
-        </div>
         <div className={styles.iconContainer}>
           <a
             href="https://twitter.com/UI_369"
@@ -187,6 +82,119 @@ const Home: NextPage = () => {
             </svg>
           </a>
         </div>
+        <hr className={styles.rule} />
+        <p className={styles.description} style={{ fontSize: "1.3em" }}>
+          &#9998; Writing Samples
+        </p>
+        <div className={styles.grid}>
+          <a
+            className={styles.card}
+            style={{ "--hover-color": "rgb(0, 200, 0)" } as React.CSSProperties}
+            href="https://mirror.xyz/ui369.eth/XXMZrHiYOW8LwSTU18Ww8_fHg67vhb3DPgvWiXV3NBI?view"
+            target="_blank"
+          >
+            <h2>DAO: Emerging Leader of the</h2>
+            <p> Self-Organization Movement &rarr;</p>
+          </a>
+
+          <a
+            className={styles.card}
+            style={{ "--hover-color": "rgb(0, 200, 0)" } as React.CSSProperties}
+            href="https://medium.com/@mattdavis-369/the-five-d-words-that-make-some-people-unstoppable-907b97262a99"
+            target="_blank"
+          >
+            <h2>Five Words that make</h2>
+            <p>some people unstoppable &rarr;</p>
+          </a>
+        </div>
+        <p className={styles.description} style={{ fontSize: "1.3em" }}>
+          &#128196; Proposal Whitepapers
+        </p>
+        <div className={styles.grid}>
+          <a
+            className={styles.card}
+            style={
+              { "--hover-color": "rgb(0, 127, 200)" } as React.CSSProperties
+            }
+            href="https://hackmd.io/Kn1h9OhhTaGEYx2vn9I99Q?view"
+            target="_blank"
+          >
+            <h2>Grant Ships Whitepaper &rarr;</h2>
+            <p>Capital deployment model</p>
+          </a>
+
+          <a
+            className={styles.card}
+            style={
+              { "--hover-color": "rgb(0, 127, 200)" } as React.CSSProperties
+            }
+            href="https://hackmd.io/47akGrirQn2dyPlpEGL3UA?view"
+            target="_blank"
+          >
+            <h2>Sudden Dapp Whitepaper &rarr;</h2>
+            <p>Dapp development gameshow</p>
+          </a>
+        </div>
+        <p className={styles.description} style={{ fontSize: "1.3em" }}>
+          &#128300; Technical Documentation
+        </p>
+        <div className={styles.grid}>
+          <a
+            className={styles.card}
+            style={
+              { "--hover-color": "rgb(47, 0, 200)" } as React.CSSProperties
+            }
+            href="https://hackmd.io/cDE9cmRTRWi4MEvKp__BJg?view"
+            target="_blank"
+          >
+            <h2>Mint-a-million Tutorial &rarr;</h2>
+            <p>DAOhaus v2 Documentation </p>
+          </a>
+
+          <a
+            className={styles.card}
+            style={
+              { "--hover-color": "rgb(47, 0, 200)" } as React.CSSProperties
+            }
+            href="https://daomasons-docs.vercel.app/Intro/about"
+            target="_blank"
+          >
+            <h2>DAO Masons Governance &rarr;</h2>
+            <p>DAO Operational Guide</p>
+          </a>
+        </div>
+        <p className={styles.description} style={{ fontSize: "1.3em" }}>
+          &#127908; Live Event Hosting
+        </p>
+        <div className={styles.grid}>
+          <a
+            className={styles.card}
+            style={
+              { "--hover-color": "rgb(200, 0, 67)" } as React.CSSProperties
+            }
+            href="https://www.youtube.com/watch?v=f9AXvfJAD6I"
+            target="_blank"
+          >
+            <h2>Does your DAO got game? &rarr;</h2>
+            <p>Game Design & DAOs Talk</p>
+          </a>
+
+          <a
+            className={styles.card}
+            style={
+              { "--hover-color": "rgb(200, 0, 67)" } as React.CSSProperties
+            }
+            href="https://www.youtube.com/watch?v=Vopl32A6Qcs&t=17s"
+            target="_blank"
+          >
+            <h2>Hosted Reputation Panel &rarr;</h2>
+            <p>DAOcember Live Expert Panel</p>
+          </a>
+        </div>
+        <hr className={styles.rule} />
+        <p style={{ margin: "1em" }}>
+          All Rights Reserved - Matt F. Davis, 2023
+        </p>
       </main>
     </div>
   );

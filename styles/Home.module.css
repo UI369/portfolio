@@ -55,8 +55,8 @@
 .title,
 .description {
   text-align: center;
-    margin-top: .1em;
-      margin-bottom: .1em;
+  margin-top: .1em;
+  margin-bottom: .1em;
 }
 
 .description {
@@ -90,8 +90,8 @@
 }
 
 .card:hover {
-  color: #0d56ff;
-  border-color: #0d56ff;
+  color: var(--hover-color);
+  border-color: var(--hover-color);
 }
 
 .card h2 {
