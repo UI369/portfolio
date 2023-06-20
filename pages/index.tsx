@@ -43,44 +43,82 @@ const Home: NextPage = () => {
       </svg>
 
       <main className={styles.main}>
-        <Image
-          src="/images/Rook_vec-511x864.png"
-          width="511"
-          height="864"
-          alt="Image"
-          className={styles.image}
-          layout="responsive"
-          style={{ marginBottom: "1rem", maxWidth: "130px"}}
-        />
-        <Image
-          src="/images/daomasons2_726x65px.png"
-          width="363"
-          height="34"
-          alt="Image"
-          className={styles.image}
-          layout="responsive"
-          style={{ width: "100%", maxWidth: "363px" }}
-        />
-
         <p
           className={styles.description}
-          style={{ marginTop: "50px", textAlign: "center", lineHeight: "2" }}
-          dangerouslySetInnerHTML={{
-            __html: `Bespoke Web3 solutions. 
-             <span style={{ marginLeft: "1.1rem" }}>Inspired&nbsp;by&nbsp;game&nbsp;design.</span>`,
-          }}
-        />
-
+          style={{ textAlign: "center", fontSize: "3em" }}
+        >
+          Matt F. Davis
+        </p>
+        <p className={styles.description} style={{ textAlign: "center" }}>
+          Writing & Audio Portfolio
+        </p>
+        <hr className={styles.rule} />
+        <p
+          className={styles.description}
+          style={{ textAlign: "center", fontSize: "1.3em" }}
+        >
+          &#9998; Writing Samples
+        </p>
         <div className={styles.grid}>
           <a
             className={styles.card}
-            href="https://buvld99oreh.typeform.com/to/QAzLnvZJ"
+            href="https://mirror.xyz/ui369.eth/XXMZrHiYOW8LwSTU18Ww8_fHg67vhb3DPgvWiXV3NBI?view"
             target="_blank"
           >
-            <h2>
-              Get Started <span style={{ color: "#0d56ff" }}>&rarr;</span>
-            </h2>
-            <p>How can we help?</p>
+            <h2>DAO: Emerging Leader of the</h2>
+            <p> Self-Organization Movement &rarr;</p>
+          </a>
+
+          <a
+            className={styles.card}
+            href="https://medium.com/@mattdavis-369/the-five-d-words-that-make-some-people-unstoppable-907b97262a99"
+            target="_blank"
+          >
+            <h2>Five Words that make</h2>
+            <p>some people unstoppable &rarr;</p>
+          </a>
+        </div>
+
+        <p
+          className={styles.description}
+          style={{ textAlign: "center", fontSize: "1.3em" }}
+        >
+          &#128196; Whitepapers
+        </p>
+        <div className={styles.grid}>
+          <a
+            className={styles.card}
+            href="https://hackmd.io/06-DcdCuQmaBhKKjmlE-LQ?view"
+            target="_blank"
+          >
+            <h2>Grant Ships Whitepaper &rarr;</h2>
+            <p>Capital deployment model</p>
+          </a>
+
+          <a
+            className={styles.card}
+            href="https://hackmd.io/vQpLtZkSQziIZiRJMgDNcA?view"
+            target="_blank"
+          >
+            <h2>Sudden Dapp Whitepaper &rarr;</h2>
+            <p>Dapp development gameshow</p>
+          </a>
+        </div>
+
+        <p
+          className={styles.description}
+          style={{ textAlign: "center", fontSize: "1.3em" }}
+        >
+          &#128300; Technical Documentation
+        </p>
+        <div className={styles.grid}>
+          <a
+            className={styles.card}
+            href="https://hackmd.io/cDE9cmRTRWi4MEvKp__BJg?view"
+            target="_blank"
+          >
+            <h2>Mint-a-million Tutorial &rarr;</h2>
+            <p>DAOhaus v2 Documentation </p>
           </a>
 
           <a
@@ -88,23 +126,38 @@ const Home: NextPage = () => {
             href="https://daomasons-docs.vercel.app/Intro/about"
             target="_blank"
           >
-            <h2>Governance Docs &rarr;</h2>
-            <p>Learn how we work</p>
+            <h2>DAO Masons Governance &rarr;</h2>
+            <p>DAO Operational Guide</p>
+          </a>
+        </div>
+        <p
+          className={styles.description}
+          style={{ textAlign: "center", fontSize: "1.3em" }}
+        >
+          &#127908; Live Event Hosting
+        </p>
+        <div className={styles.grid}>
+          <a
+            className={styles.card}
+            href="https://www.youtube.com/watch?v=f9AXvfJAD6I"
+            target="_blank"
+          >
+            <h2>Does your DAO got game? &rarr;</h2>
+            <p>Game design & DAOs</p>
+          </a>
+
+          <a
+            className={styles.card}
+            href="https://www.youtube.com/watch?v=Vopl32A6Qcs&t=17s"
+            target="_blank"
+          >
+            <h2>Hosted Reputation Panel &rarr;</h2>
+            <p>DAOcember Live expert panel</p>
           </a>
         </div>
         <div className={styles.iconContainer}>
           <a
-            href="https://discord.gg/FydbKxFnyU"
-            target="_blank"
-            aria-label="Discord"
-            className={styles.icon}
-          >
-            <svg className={styles.svgContainer}>
-              <use xlinkHref="#icon-discord"></use>
-            </svg>
-          </a>
-          <a
-            href="https://twitter.com/daomasons"
+            href="https://twitter.com/UI_369"
             target="_blank"
             aria-label="Twitter"
             className={styles.icon}
@@ -114,7 +167,7 @@ const Home: NextPage = () => {
             </svg>
           </a>
           <a
-            href="https://github.com/daomasons"
+            href="https://github.com/UI369"
             target="_blank"
             aria-label="Twitter"
             className={styles.icon}
@@ -124,7 +177,7 @@ const Home: NextPage = () => {
             </svg>
           </a>
           <a
-            href="https://t.me/daomasons"
+            href="https://t.me/UI369"
             target="_blank"
             aria-label="Telegram"
             className={styles.icon}
