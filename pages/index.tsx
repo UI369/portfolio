@@ -83,70 +83,7 @@ const Home: NextPage = () => {
           </a>
         </div>
         <hr className={styles.rule} />
-        <p className={styles.description}>&#9998; Writing Samples</p>
-        <div className={styles.grid}>
-          <a
-            className={styles.card}
-            style={
-              { "--hover-color": "rgb(0, 171, 28)" } as React.CSSProperties
-            }
-            href="https://mirror.xyz/ui369.eth/XXMZrHiYOW8LwSTU18Ww8_fHg67vhb3DPgvWiXV3NBI?view"
-            target="_blank"
-          >
-            <h2>DAO: Emerging Leader of </h2>
-            <p className={styles.subBullet}>
-              the Self-Organization Movement{" "}
-              <span className={styles.someColor}>&rarr;</span>
-            </p>
-          </a>
 
-          <a
-            className={styles.card}
-            style={
-              { "--hover-color": "rgb(0, 171, 28)" } as React.CSSProperties
-            }
-            href="https://medium.com/@mattdavis-369/the-five-d-words-that-make-some-people-unstoppable-907b97262a99"
-            target="_blank"
-          >
-            <h2>Five Words that make</h2>
-            <p className={styles.subBullet}>
-              some people unstoppable{" "}
-              <span className={styles.someColor}>&rarr;</span>
-            </p>
-          </a>
-        </div>
-        <p className={styles.description}>&#128196; Proposal Whitepapers</p>
-        <div className={styles.grid}>
-          <a
-            className={styles.card}
-            style={
-              { "--hover-color": "rgb(0, 127, 200)" } as React.CSSProperties
-            }
-            href="https://hackmd.io/Kn1h9OhhTaGEYx2vn9I99Q?view"
-            target="_blank"
-          >
-            <h2>
-              Grant Ships Whitepaper{" "}
-              <span className={styles.someColor}>&rarr;</span>
-            </h2>
-            <p className={styles.subBullet}>Capital deployment model</p>
-          </a>
-
-          <a
-            className={styles.card}
-            style={
-              { "--hover-color": "rgb(0, 127, 200)" } as React.CSSProperties
-            }
-            href="https://hackmd.io/47akGrirQn2dyPlpEGL3UA?view"
-            target="_blank"
-          >
-            <h2>
-              Sudden Dapp Whitepaper{" "}
-              <span className={styles.someColor}>&rarr;</span>
-            </h2>
-            <p className={styles.subBullet}>Dapp development gameshow</p>
-          </a>
-        </div>
         <p className={styles.description}>&#128300; Technical Documentation</p>
         <div className={styles.grid}>
           <a
@@ -211,6 +148,73 @@ const Home: NextPage = () => {
             <p className={styles.subBullet}>DAOcember Live Expert Panel</p>
           </a>
         </div>
+
+        <p className={styles.description}>&#9998; Writing Samples</p>
+        <div className={styles.grid}>
+          <a
+            className={styles.card}
+            style={
+              { "--hover-color": "rgb(0, 171, 28)" } as React.CSSProperties
+            }
+            href="https://mirror.xyz/ui369.eth/XXMZrHiYOW8LwSTU18Ww8_fHg67vhb3DPgvWiXV3NBI?view"
+            target="_blank"
+          >
+            <h2>DAO: Emerging Leader of </h2>
+            <p className={styles.subBullet}>
+              the Self-Organization Movement{" "}
+              <span className={styles.someColor}>&rarr;</span>
+            </p>
+          </a>
+
+          <a
+            className={styles.card}
+            style={
+              { "--hover-color": "rgb(0, 171, 28)" } as React.CSSProperties
+            }
+            href="https://medium.com/@mattdavis-369/the-five-d-words-that-make-some-people-unstoppable-907b97262a99"
+            target="_blank"
+          >
+            <h2>Five Words that make</h2>
+            <p className={styles.subBullet}>
+              some people unstoppable{" "}
+              <span className={styles.someColor}>&rarr;</span>
+            </p>
+          </a>
+        </div>
+
+        <p className={styles.description}>&#128196; Proposal Whitepapers</p>
+        <div className={styles.grid}>
+          <a
+            className={styles.card}
+            style={
+              { "--hover-color": "rgb(0, 127, 200)" } as React.CSSProperties
+            }
+            href="https://hackmd.io/Kn1h9OhhTaGEYx2vn9I99Q?view"
+            target="_blank"
+          >
+            <h2>
+              Grant Ships Whitepaper{" "}
+              <span className={styles.someColor}>&rarr;</span>
+            </h2>
+            <p className={styles.subBullet}>Capital deployment model</p>
+          </a>
+
+          <a
+            className={styles.card}
+            style={
+              { "--hover-color": "rgb(0, 127, 200)" } as React.CSSProperties
+            }
+            href="https://hackmd.io/47akGrirQn2dyPlpEGL3UA?view"
+            target="_blank"
+          >
+            <h2>
+              Sudden Dapp Whitepaper{" "}
+              <span className={styles.someColor}>&rarr;</span>
+            </h2>
+            <p className={styles.subBullet}>Dapp development gameshow</p>
+          </a>
+        </div>
+
         <hr className={styles.rule} />
         <p style={{ margin: "1em 2em 2em 2em" }}>
           All Rights Reserved - Matt F. Davis, 2023
