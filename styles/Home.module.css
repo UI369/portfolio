@@ -56,13 +56,18 @@
 .description {
   text-align: center;
   margin-top: 2em;
-  margin-bottom: .1em;
+  margin-bottom: 0.1em;
   font-size: 1.3rem;
   width: 100%;
 }
 
 .description {
   font-size: 1.7rem;
+}
+
+.textContainer {
+  max-width: 600px; /* Adjust the value to your preferred width */
+  margin: 0 auto; /* This centers the container horizontally */
 }
 
 .subBullet {
@@ -73,8 +78,9 @@
   color: var(--hover-color);
 }
 
-.spacer { height: 20px }
-
+.spacer {
+  height: 20px;
+}
 
 .grid {
   display: flex;
@@ -104,8 +110,9 @@
   border-color: var(--hover-color);
 }
 
-.card h2, .card h3 {
-  margin: 0 0 .5rem 0;
+.card h2,
+.card h3 {
+  margin: 0 0 0.5rem 0;
   font-size: 1.2rem;
 }
 
@@ -151,14 +158,13 @@
   display: grid;
   grid-template-columns: repeat(11, 1fr);
   /* Adjust the number of columns as needed */
-  grid-gap:  10px;
+  grid-gap: 10px;
   /* Adjust the gap between grid items */
   justify-items: center;
   width: 100vw;
   height: 100vw;
   margin: 0 auto;
   border: 1px solid #ddd;
-  
 }
 
 /* Grid items */
@@ -176,7 +182,6 @@
   max-height: 100%;
 }
 
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -191,8 +196,6 @@
     max-width: calc(25% - 10px);
   }
 }
-
-
 
 @media (max-width: 600px) {
   .icon-container a {

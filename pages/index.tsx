@@ -7,13 +7,13 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Matt F. Davis</title>
+
         <meta
-          content="Matt Davis is a software developer and technical entrepreneur"
+          content="Matt Davis is a software developer, developer advocate and entrepreneur"
           name="description"
         />
         <link href="/favicon.ico" rel="icon" />
       </Head>
-
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
@@ -39,7 +39,6 @@ const Home: NextPage = () => {
           <path d="M34,9.6l-4.9,22.9c-0.3,1.6-1.3,2-2.7,1.2L19,28.3l-3.6,3.5c-0.3,0.4-0.7,0.8-1.5,0.8l0.4-7.6l0,0l-0.1,0 l13.9-12.4c0.7-0.6-0.1-0.8-0.9-0.3L10.2,22.9l-7.4-2.3c-1.7-0.4-1.7-1.6,0.3-2.3l28.8-11C33.2,6.7,34.5,7.6,34,9.6z"></path>
         </symbol>
       </svg>
-
       <main className={styles.main}>
         <p
           className={styles.description}
@@ -48,7 +47,10 @@ const Home: NextPage = () => {
           Matt F. Davis
         </p>
         <p className={styles.description} style={{ textAlign: "center" }}>
-          Writing & Audio Portfolio
+          Developer Advocate | Writing & Audio Portfolio
+        </p>
+        <p>
+          Empowering Development Communities through Education and Connection
         </p>
         <div className={styles.iconContainer}>
           <a
@@ -83,7 +85,6 @@ const Home: NextPage = () => {
           </a>
         </div>
         <hr className={styles.rule} />
-
         <p className={styles.description}>&#128300; Technical Documentation</p>
         <div className={styles.grid}>
           <a
@@ -148,7 +149,6 @@ const Home: NextPage = () => {
             <p className={styles.subBullet}>DAOcember Live Expert Panel</p>
           </a>
         </div>
-
         <p className={styles.description}>&#9998; Writing Samples</p>
         <div className={styles.grid}>
           <a
@@ -181,7 +181,6 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div>
-
         <p className={styles.description}>&#128196; Proposal Whitepapers</p>
         <div className={styles.grid}>
           <a
